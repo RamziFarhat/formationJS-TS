@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les objets en JavaScript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Les objets</h1>
+        <script>
+            //On crée un constructeur  "Identite()"
+            function Etudiant(p, n, a){
+                this.prenom = p;
+                this.nom = n;
+                this.age = a;
+            }
+            
+            //On crée un premier objet
+            var etudiant1 = new Etudiant("ahmed", "Ben Salem", 25);
+            var etudiant2 = new Etudiant("aymen", "romdhane", 20);
+            etudiant1 = etudiant2;
+            etudiant1.prenom = "blablabla";
+
+            alert('Prénom de ahmed : ' + etudiant1.prenom +
+                  '\nPrénom de aymen : ' + etudiant2.prenom);
+        </script>
+    </body>
+</html>
+
+

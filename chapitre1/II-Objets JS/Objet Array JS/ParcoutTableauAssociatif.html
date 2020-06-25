@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les tableaux en JavaScript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Les tableaux</h1>
+        <script>
+            //On crée un objet littéral
+            
+            var prenoms = {
+                prenom1 : 'Pierre',
+                prenom2 : 'Victor',
+                prenom3 : 'Julia',
+                prenom4 : 'Claire'
+            };
+            
+            var p = '';
+            
+            /*On utilise un mot de notre choix qui va être remplacé par les
+            clefs de notre tableau à chaque nouveau passage dans la boucle*/
+            for (var clefs in prenoms){
+                p += clefs + ' : ' + prenoms[clefs] + '\n';
+            }
+            
+            //On affiche tout le contenu de notre objet
+            alert(p);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les objets en JavaScript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Les objets</h1>
+        <script>
+            //On crée un objet en utilisant new Object()
+            var moi = {
+                prenom : "Pierre",
+                nom : "Giraud",
+                age : 25,
+                
+                //this sert de référence à l'objet utilisé
+                id : function(){
+                    return this.prenom + ' ' + this.nom;
+                }
+            };
+            
+            //On affiche le résultat retourné par notre méthode
+            alert(moi.id());
+        </script>
+    </body>
+</html>
