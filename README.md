@@ -1,6 +1,6 @@
 # formationJS-TS
 
-Formation JavaScript et TypeScript
+Formation JavaScript et TypeScript (ORSYS Formations)
 
 Le langage JavaScript est devenu incontournable dans le développement de sites Web, tant pour sa relation forte à l'interface graphique que pour le traitement client/serveur. Ce stage vous apportera toute la connaissance pour interfacer le langage avec les éléments graphiques des pages Web et ainsi pouvoir réaliser des menus déroulants, des animations, modifier dynamiquement les styles de présentation.
 
@@ -21,6 +21,6 @@ Le langage JavaScript est devenu incontournable dans le développement de sites 
 
 
 
-ORSYS Formations
+
 
 Email Formateur: bassem.seddik@gmail.com
