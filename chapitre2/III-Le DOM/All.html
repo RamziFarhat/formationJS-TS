@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Le DOM HTML</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1 id="gros_titre">Le DOM</h1>
+        <p class="para">Du texte et <a href="isetso.rnu.tn">un lien</a></p>
+        <p class="para">Un deuxième paragraphe</p>
+		<p id="para3">Un troisième paragraphe</p>
+        
+        <script>
+            document.getElementById('gros_titre').innerHTML = 'Titre modifié !';
+			var newPara = document.createElement('p');
+            newPara.id = 'nouveau';
+            var texte = document.createTextNode('Inséré !');
+            newPara.appendChild(texte);
+            document.body.appendChild(newPara);
+			document.querySelector('a').style.color = 'blue'; 
+			document.querySelector('a').style.fontSize = '60px'; 
+            var titre = document.getElementById('para3');
+            var parent = document.body;
+            var  nouveauTitre = document.createElement('h2');
+            nouveauTitre.id = 'titre_moyen';
+            nouveauTitre.innerHTML = 'Titre modifié en Js'
+            parent.replaceChild(nouveauTitre, titre);
+        </script>
+    </body>
+</html>
