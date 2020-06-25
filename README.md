@@ -1,4 +1,4 @@
-# formationJS-TS
+# Formation JS-TS
 
 Formation JavaScript et TypeScript (ORSYS Formations)
 
