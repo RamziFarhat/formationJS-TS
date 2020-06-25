@@ -7,11 +7,14 @@ Le langage JavaScript est devenu incontournable dans le développement de sites 
 
 #OBJECTIFS PEDAGOGIQUES
 1) Le langage JavaScript
-2) Evénements et données
-3) Gestion de formulaires HTML
-4) Interaction avec les feuilles de style en cascade
-5) Manipulation du DOM XML	6) Introduction à TypeScript
+2) Manipulation du DOM XML	
+3) Interaction avec les feuilles de style en cascade 
+4) Gestion de formulaires HTML 
+
+5) Evénements et données
+6) Introduction à TypeScript
 7) Les bases de TypeScript
+
 8) Les bases de la POO en TypeScript
 9) Les Types
 10) Modularité
