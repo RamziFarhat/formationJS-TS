@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Le DOM HTML</title>
+    </head>
+	
+    <body>
+        <h1 id="gros_titre">Le DOM</h1>
+        <p class="para">Du texte et <a href="isetso.rnu.tn">un lien</a></p>
+        <p class="para">Un deuxième paragraphe</p>
+        <script>
+				
+				var titreById = document.getElementById("gros_titre").innerHTML;
+				//var titreByTagName = document.getElementByTagName('h1').textContent; 
+				
+				titreById = "Titre Modifié";
+				//titreByTagName = "Titre Modifié aussi";
+				
+				
+				
+				document.getElementById("gros_titre").innerHTML = titreById;
+				
+				document.querySelector('a').style.color = "blue";
+				document.querySelector('a').style.fontSize = "60px";
+				
+				var newParagraphNode = document.createElement('p');
+				var newTextNode = document.createTextNode('Un troisième paragraphe rajouté par JavaScript');
+				
+				newParagraphNode.appendChild(newTextNode);
+				document.body.appendChild(newParagraphNode);
+
+        </script>
+    </body>
+</html>

@@ -5,12 +5,13 @@
 		<meta charset=utf-8">  
 		<script>
 
-			var y=10;
-
-			alert (  4 == "4" );
-			alert (  4 === "4" );
-			alert (  4 != "4" );
-			alert (  4 !== "4" );
+			var y = 10;
+			alert (  4 == 4 );  //true
+			alert (  4 == "4" ); // en valeur seulement
+			alert (  4 === "4" ); // false: test en vaeleu et en type
+			alert (  4 != "4" ); // false
+			alert (  4 !== "4" ); // true
+			
 			alert ( "la variable y est " + y +" elle est de type "  + typeof(y));
 
 			var y="10";
