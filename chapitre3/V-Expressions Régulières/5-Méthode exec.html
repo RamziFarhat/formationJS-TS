@@ -14,7 +14,9 @@
             //On accède au texte de notre paragraphe
             var rec = document.querySelector('p').textContent;
             
-            var r1 = /aient/ig;
+            //Ceci sera notre expression régulière
+			var r1 = /aient/ig;
+			
 
             //On fait notre recherche avec exec()
             var res1 = r1.exec(rec);
