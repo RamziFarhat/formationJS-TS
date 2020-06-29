@@ -1,0 +1,20 @@
+{
+  "name": "chapitre6_iteration02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bassem Seddik",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.157",
+    "http-server": "^0.12.3",
+    "lodash": "^4.17.15",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
