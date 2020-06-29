@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JSON Test</title>
+
+    
+</head>
+<body>
+	<p id="cook"></p>
+	
+    <script type = "text/javascript">
+		document.cookie = 'user=Bassem;';
+		alert(document.cookie);
+		
+        let date = new Date(Date.now() + 8640000000); //86400000ms = 1 jour
+		date = date.toUTCString();
+		
+		//Crée ou met à jour un cookie 'user'
+		document.cookie = 'user=FormationJS_TS; path=/; expires=' + date; 
+		
+		//Supprime le cookie en lui passant une date d'expiration passée
+		
+        
+		console.log(document.cookie)
+		var c = document.cookie;
+		document.getElementById('cook').innerHTML = c;
+		
+    </script>
+    
+</body>
+</html>

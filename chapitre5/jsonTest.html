@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JSON Test</title>
+
+    
+</head>
+<body>
+<script type = "text/javascript">
+    // let formation = [
+    //     {
+    //         "nom": "Bassem Seddik", 
+    //         "nombreFormes": 10, 
+    //         "centre": "ORSYS", 
+    //         "qualité": 9.5
+    //     },
+    //     {
+    //         "nom": "Autre formateur", 
+    //         "nombreFormes": 13, 
+    //         "centre": null, 
+    //         "qualité": 9
+    //     }
+    // ];
+    // console.log(formation);
+
+    let formation = `[
+        {
+            "nom": "Bassem Seddik", 
+            "nombreFormes": 10, 
+            "centre": "ORSYS", 
+            "qualité": 9.5
+        },
+        {
+            "nom": "Autre formateur", 
+            "nombreFormes": 13, 
+            "centre": "Autre centre", 
+            "qualité": 10
+        }
+    ]`;
+    console.log(JSON.parse(formation)[1]["nom"][0]);
+    
+
+
+
+
+</script>
+    
+</body>
+</html>
